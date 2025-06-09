@@ -85,6 +85,7 @@ a {
     gap: 20px;
     max-width: 100%;
     flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 .pictureContainer {
     max-width: 200px;
@@ -112,4 +113,44 @@ a {
 .quoteCitation {
     align-self: flex-end;
     font-weight: 600;
+}
+.CTASection {
+    padding: 50px 70px;
+}
+.callBox {
+    border-radius: 10px;
+    padding: 40px 60px;
+    background-color: #759975;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.callBox h5 {
+    color: white;
+    font-size: 16px;;
+}
+.callBox p {
+    color:#d4d4d4;
+    font-size: 13px;
+}
+.callBox button {
+    background-color: #759975;;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+}
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #24321e;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
